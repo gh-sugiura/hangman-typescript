@@ -1,0 +1,27 @@
+{
+  "name": "hangman-typescript",
+  "version": "1.0.0",
+  "description": "A Hangman game implemented in TypeScript. for practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gh-sugiura/hangman-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gh-sugiura/hangman-typescript/issues"
+  },
+  "homepage": "https://github.com/gh-sugiura/hangman-typescript#readme",
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.9",
+    "@types/node": "^25.3.5",
+    "typescript": "^5.9.3"
+  }
+}
